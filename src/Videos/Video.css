@@ -1,0 +1,26 @@
+.main{
+    width: 80%;
+    font-size: 20px;
+    margin-left: 20%;
+   display: grid;
+}
+.videos{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.video{
+    justify-content: space-around;
+    /* height: 270px;
+    width: 350px; */
+}
+.text{
+    padding: 10px;
+    display: flex;
+}
+.text > div {
+    padding: 0 10px;
+}
+.view {
+    margin-bottom: 20px;
+}

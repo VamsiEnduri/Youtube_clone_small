@@ -1,0 +1,55 @@
+.MainArea{  
+    width: 100%;
+    margin-left: 10px;
+    display: flex;
+    align-items: center;
+    /* background-color: rgb(199, 178, 178); */
+    justify-content: space-between;
+}
+.sidebar{  
+    top: 70px;
+    width: 20%;
+    position: fixed;
+    padding: 8px; 
+    /* display: flex; */
+    /* align-items: center; */
+     background-color: rgb(199, 178, 178); 
+     /* justify-content: space-between;  */
+}
+/* .MainArea:hover{
+    background-color: lightslategray;
+    width: 23%;
+} */
+.Icon{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    gap: 20px;
+   padding: 5px 0;
+}
+.Icon h3{
+    color:black;
+    opacity: 0.8;
+}
+.Icon:hover{
+    background-color:lightgray;
+    border-radius: 10px;
+  width: 100%;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
